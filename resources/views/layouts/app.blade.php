@@ -12,7 +12,8 @@
     @include('partials.header')
 
     <main>
-        @yield('contenuto')
+        @yield('current-series')
+        @yield('more-comics')
     </main>
 
     {{-- importo il footer --}}
