@@ -10,12 +10,14 @@
     {{-- header bottom --}}
     <div class="container-header">
         <div class="logo">
-            <img src="img/dc-logo.png" alt="logo">
+            <a href="">
+                <img src="img/dc-logo.png" alt="logo">
+            </a>
         </div>
         <div class="nav">
             <ul>
                 <li><a href="/">CHARACTERS</a></li>
-                <li><a href="/">COMICS</a></li>
+                <li><a href="/comics">COMICS</a></li>
                 <li><a href="/">MOVIES</a></li>
                 <li><a href="/">TV</a></li>
                 <li><a href="/">GAMES</a></li>

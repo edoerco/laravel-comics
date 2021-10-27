@@ -24,3 +24,11 @@ Route::get('/', function () {
     ];
     return view('home', $data, $data2);
 });
+
+Route::get('/comics', function () {
+    $array_comics = config('comics');
+    $data = [
+        'comics' => $array_comics
+    ];
+    return view('comics', $data);
+});

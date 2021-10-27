@@ -14,6 +14,7 @@
     <main>
         @yield('current-series')
         @yield('more-comics')
+        @yield('fumetti')
     </main>
 
     {{-- importo il footer --}}
