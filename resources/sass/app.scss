@@ -1,0 +1,35 @@
+//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// header 
+.line {
+    width: 100%;
+    height: 25px;
+    background-color: #0482f9;
+
+    .container-line {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        height: 100%;
+        width: 60%;
+        margin: 0 auto;
+        color: white;
+
+        p {
+            font-size: 15px;
+            margin-left: 10px;
+            sup {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+// main 
+
+// footer
